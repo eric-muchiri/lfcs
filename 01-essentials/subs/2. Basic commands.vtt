@@ -1,0 +1,265 @@
+WEBVTT
+
+00:01.150 --> 00:05.900
+Hello and welcome back students knowing or just get our feet wet.
+
+00:06.210 --> 00:16.330
+What I'm going to do in this lecture is to log into the CLIA and just show you some very basic commands
+
+00:17.370 --> 00:24.490
+that way you'll get some idea and you'll start feeling comfortable around the Linux interface.
+
+00:24.910 --> 00:26.890
+If you're completely new to it.
+
+00:27.160 --> 00:31.590
+So we are in the windowing environment right now.
+
+00:31.600 --> 00:34.930
+I'm going to open a terminal and this is Sentosa by the way.
+
+00:35.060 --> 00:39.420
+Santos or Redhat whatever you want to call it.
+
+00:40.370 --> 00:50.270
+And currently we are the problem and just the fact that we like the dollar sign probably tells you that
+
+00:50.270 --> 00:54.180
+sonand root user who is logged in right now.
+
+00:54.600 --> 00:55.230
+OK.
+
+00:55.400 --> 01:03.090
+So I suppose if I want to find out who I am I log in as maybe I have switched back and forth from the
+
+01:03.100 --> 01:09.650
+root to some other user to log back to some other user and back to my cell and I caught last thought
+
+01:09.710 --> 01:13.780
+of lost track of who are logged in as the command is very simple.
+
+01:13.790 --> 01:14.630
+It's English word.
+
+01:14.630 --> 01:16.040
+Who am I.
+
+01:16.040 --> 01:18.150
+All together without any space.
+
+01:18.800 --> 01:23.700
+It tells me I'm logged in as Larry and
+
+01:27.510 --> 01:31.460
+suppose I lost track of where am I located.
+
+01:31.530 --> 01:33.420
+You know in the directory tree.
+
+01:33.420 --> 01:35.310
+Exactly where I'm located.
+
+01:35.310 --> 01:37.720
+I'll do a present working directory.
+
+01:37.720 --> 01:45.840
+P d it tells me I'm located in my home directory which is special Larry.
+
+01:47.010 --> 01:53.630
+I want to find out a listing of files that I currently am I not own any files at all.
+
+01:53.670 --> 01:56.150
+So what I'm going to do is I'm going to create some file.
+
+01:56.190 --> 02:07.790
+A very quick way to create some files which are empty check nothing in them is like file 1 file to file.
+
+02:08.740 --> 02:13.060
+And I do ls and you see there are three files that I just created.
+
+02:13.080 --> 02:13.920
+Areikat.
+
+02:14.380 --> 02:20.830
+OK I just created three files and when I do it LS I find out that I have some basic information which
+
+02:20.830 --> 02:33.150
+was already there and if I do it LS dash E-L which is called The Long listing and I look down here.
+
+02:33.630 --> 02:39.540
+There are some files that are starting with the dash and these are file permissions that begin to talk
+
+02:39.540 --> 02:47.880
+about later on but the ones that are starting with a D they are directories and also on my screen they
+
+02:47.940 --> 02:51.210
+are shown as blue color.
+
+02:51.660 --> 02:52.740
+So these are directories.
+
+02:52.740 --> 02:56.770
+The one I the ones I just created are files.
+
+02:57.180 --> 03:07.360
+So for directories you have to go CD change directory and then suppose if I want to go to desktop and
+
+03:07.360 --> 03:14.940
+now my present working great Korea's slide show slash Larry slushed us top with a capital D.
+
+03:14.940 --> 03:21.120
+Linux is case sensitive so always make sure that you're using you're supposed to use upper or lower
+
+03:21.120 --> 03:23.060
+case because that could make a difference.
+
+03:23.260 --> 03:29.180
+If you do all lowercase desktop it will show you an air support let me do it actually.
+
+03:29.280 --> 03:37.110
+So currently I win and I'm going to do desktop and says no such file.
+
+03:37.650 --> 03:41.620
+And if you are a new Linux user you're going to say no it is not true.
+
+03:41.740 --> 03:42.850
+Is there a file is there.
+
+03:42.850 --> 03:43.770
+I've just seen it.
+
+03:44.080 --> 03:49.540
+But the reason it's not letting you in because there is no such thing as all lowercase desktop in your
+
+03:49.540 --> 03:50.380
+directory.
+
+03:50.380 --> 03:56.720
+You have to do cd capital D and then the rest of the work.
+
+03:57.100 --> 04:02.940
+And nobody likes you and you've got nothing in there right now so it doesn't show any files.
+
+04:03.710 --> 04:08.660
+You do a CD dub CD dot.
+
+04:09.170 --> 04:17.800
+Sorry Dad got I'll bring you up once step see you're back into your home directory and I have created
+
+04:17.800 --> 04:18.790
+3 files.
+
+04:18.820 --> 04:20.550
+But no I don't want them.
+
+04:20.690 --> 04:36.630
+So I'm going to do file one remove our aim is for remove while to remove want to remove what three and
+
+04:36.630 --> 04:37.180
+just do it.
+
+04:37.180 --> 04:38.060
+LS No.
+
+04:38.500 --> 04:40.530
+All my thoughts I got very moved.
+
+04:42.480 --> 04:46.840
+So another important are in for information.
+
+04:47.130 --> 04:52.080
+If you want to find out what my host name is currently I don't have the host name assigned to this machine
+
+04:52.300 --> 04:57.320
+so I showing local hall got local to me so I haven't assigned a domain yet.
+
+04:57.330 --> 05:00.420
+I haven't assigned a host name yet to this machine.
+
+05:00.420 --> 05:08.950
+I can also find out what the date is today and this shows the date the date command and I suppose if
+
+05:08.950 --> 05:14.140
+I want to change the password for Larry since I'm logged in as Larry that's the only password I can
+
+05:14.140 --> 05:18.040
+change right now I cannot change password for other people or for root.
+
+05:18.040 --> 05:20.180
+I can only change password for myself.
+
+05:20.440 --> 05:28.660
+When you do a PE P S S W D or lowercase l get ill ask you what your current password is suppose I on
+
+05:28.660 --> 05:31.760
+purpose enter a wrong password
+
+05:34.500 --> 05:35.720
+it give me this error.
+
+05:35.730 --> 05:36.620
+This way.
+
+05:36.620 --> 05:37.350
+Weird error.
+
+05:38.390 --> 05:44.830
+This basically saying you have to run password but this is sent to us way of telling you that you got
+
+05:44.830 --> 05:45.800
+the wrong password.
+
+05:46.150 --> 05:47.670
+But this is how you change the password.
+
+05:47.680 --> 05:49.600
+Piazza's W.D..
+
+05:50.650 --> 05:58.740
+And another command is his last lost user who logged on to this machine.
+
+05:59.170 --> 06:05.110
+This is the last user since Larry is the only user on it so far so he's the last user as well.
+
+06:06.220 --> 06:13.870
+I suppose I want to find out what is my version of operating system running.
+
+06:14.010 --> 06:15.380
+So I says Linux.
+
+06:15.720 --> 06:16.870
+But that's not good enough.
+
+06:16.890 --> 06:20.770
+I want to get more information so I do use the dash dash.
+
+06:20.900 --> 06:29.650
+Hello and gives you more options that are available that you can use with your name.
+
+06:29.780 --> 06:31.690
+So I want to type in your name
+
+06:35.240 --> 06:39.060
+Bash and that gives you a lot more information.
+
+06:39.070 --> 06:45.940
+It gives me what the operating system it what the domain name is but the host name is the actual architecture
+
+06:46.000 --> 06:48.860
+of my Linux operating system.
+
+06:49.690 --> 06:57.050
+The date it won't install or the date it was available are they did was created.
+
+06:57.070 --> 07:00.020
+All of that information is available.
+
+07:00.910 --> 07:05.840
+So these are some of the commands I wanted you to get a feel for linux right notes.
+
+07:05.920 --> 07:08.040
+So this is it.
+
+07:08.290 --> 07:12.840
+We get to get into more detail and more complex stuff in upcoming lectures.

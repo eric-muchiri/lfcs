@@ -1,0 +1,154 @@
+WEBVTT
+
+00:00.880 --> 00:07.230
+Low students and Balcom in this lecture we're going to talk about regular expressions and recommend
+
+00:07.920 --> 00:16.200
+regular expressions are special text strings that are used to search for and match patterns in text
+
+00:16.830 --> 00:19.440
+to make the search expression more specific.
+
+00:19.440 --> 00:25.630
+It can work together with the grep command the grep command is a general regular expression parser that
+
+00:25.780 --> 00:32.310
+that's what stands for such as a file for string latches matching a giving regular expression and by
+
+00:32.310 --> 00:37.400
+default it prints out any line containing a string that matches it.
+
+00:37.410 --> 00:42.240
+There are many useful options which can be set for grep which affect its output.
+
+00:42.670 --> 00:48.800
+Are we going to use some examples in order to demonstrate how to use grep and regular expressions is
+
+00:48.810 --> 00:53.280
+by actually typing in the command grep.
+
+00:53.280 --> 01:02.160
+And suppose we are we want to print all the user names that begin with the letter E in a were at c password
+
+01:02.160 --> 01:03.120
+file.
+
+01:03.120 --> 01:17.220
+So in order to do that we'll use single quotes the carrot sign the end of code and we're going to check
+
+01:17.220 --> 01:23.060
+our ETSI passport file to see if passport file has anything that begin with the letter.
+
+01:23.450 --> 01:25.180
+It has nothing in it.
+
+01:25.210 --> 01:27.310
+So it came up empty.
+
+01:27.330 --> 01:41.810
+OK let's try another one group again the card the end of Code sorry this time not a word try J.
+
+01:42.630 --> 01:45.640
+Let's do the password again.
+
+01:46.320 --> 01:48.170
+And there we have an entry.
+
+01:48.270 --> 01:57.000
+So we have a user named Joseph ETSI password file and he showed up his entire entry from the password
+
+01:57.000 --> 01:57.680
+file.
+
+01:57.690 --> 02:04.410
+So this is a quick way off instead of actually doing a more on Etsy password are doing a V-I of the
+
+02:04.440 --> 02:05.140
+password.
+
+02:05.280 --> 02:12.210
+We were able to locate him and without even knowing Joseph how to spell jail I suppose if you are one
+
+02:12.210 --> 02:18.990
+of those people whose spelling is really bad and you don't want to guess then all I did is just use
+
+02:18.990 --> 02:21.500
+the first character of his name.
+
+02:21.820 --> 02:30.870
+And we were able to pull the entire name and the entire password entry for him and I knowing this password
+
+02:30.870 --> 02:36.240
+file is another user whose name starts with a capital G.
+
+02:36.570 --> 02:45.530
+So of course by default grep only picks up stuff in lowercase but in Linux remember Lorqess supposed
+
+02:45.540 --> 02:51.590
+if there's a Joeseph with a capital G he is different from Joeseph with the lowercase g.
+
+02:52.530 --> 02:56.620
+So we get to run the same comment except the difference is going to be grep.
+
+02:56.640 --> 03:03.010
+Gosh I am still going to search for J.
+
+03:03.090 --> 03:04.330
+Starting with J.
+
+03:04.710 --> 03:05.840
+And in a D.
+
+03:05.870 --> 03:07.410
+C password file.
+
+03:08.220 --> 03:12.070
+And this time it picks it picks up two names.
+
+03:12.140 --> 03:13.320
+What Joseph.
+
+03:13.320 --> 03:19.770
+One with a capital one with the lowercase g and this is due to the fact that we have added AI that we
+
+03:19.770 --> 03:21.810
+want to see everything that starts a J.
+
+03:21.840 --> 03:24.430
+Regardless of what case it is.
+
+03:25.080 --> 03:32.050
+So as you can see this becomes fairly easy and especially if you are writing a script you can use the
+
+03:32.140 --> 03:39.750
+grep command gets used a lot in scripting also and you can parse different values from a file without
+
+03:39.750 --> 03:44.540
+actually going into the file and your script will be able to do it automatically.
+
+03:44.550 --> 03:47.330
+Let's do one more example.
+
+03:47.990 --> 03:49.320
+And we get a graph.
+
+03:49.320 --> 03:59.140
+For Let's say H but instead of beginning with H we going to say something that ends with H.
+
+03:59.250 --> 04:06.520
+So how do you do that grep h dollar sign.
+
+04:07.480 --> 04:15.930
+Us going to tell it to look for names are anything that ends with H.
+
+04:16.250 --> 04:19.460
+And as you can see all the bash bin bash.
+
+04:19.460 --> 04:24.560
+This is not specifically for users it's for anything that ends with an h.
+
+04:24.740 --> 04:32.120
+So Ben Bash is in my current file because it's not too populated right now so the only thing he could
+
+04:32.120 --> 04:37.340
+find was the bin bash directory.

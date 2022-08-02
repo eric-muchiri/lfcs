@@ -1,0 +1,18 @@
+One of the most used command
+Used to search and locate files and directories
+Can be used in a variety of conditions and criteria
+
+
+man pages - a help feature in linux for all standard commands
+e.g man find
+
+parameters
+
+. - begin from the current directory
+-name - name of the file
+
+e.g find . -name test.txt
+
+to specify a specific directory
+
+find /home test.txt

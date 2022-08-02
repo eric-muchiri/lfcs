@@ -1,0 +1,319 @@
+WEBVTT
+
+00:01.060 --> 00:09.250
+Hello students and welcome in this short lecture we're going to talk about input output redirection.
+
+00:09.310 --> 00:14.470
+This is also one of the competencies in your domain.
+
+00:14.470 --> 00:17.290
+The first domain of this test.
+
+00:17.290 --> 00:26.680
+So what that is actually is instead when we run a command at the at the Seelye in Linux some time you
+
+00:26.680 --> 00:30.430
+want to send the output somewhere else.
+
+00:30.640 --> 00:35.350
+Are you trying to manipulate the output you don't want to see it that way it's coming because it's either
+
+00:35.350 --> 00:41.110
+not readable or you want to save it because you send it or you want to send it over somewhere because
+
+00:41.110 --> 00:45.910
+you want to get the output so you can archive it for later on.
+
+00:46.240 --> 00:50.810
+And here are some examples that the domain of mentions.
+
+00:50.870 --> 00:56.380
+This is redirect as Judy out to a file.
+
+00:56.440 --> 01:02.960
+This is the second one is a redirect and append the third one is called a pipe.
+
+01:03.010 --> 01:07.980
+Gets used a lot especially when we get into processors and how to manage processes.
+
+01:07.990 --> 01:09.850
+I think is the third or fourth domain.
+
+01:09.990 --> 01:11.650
+We can't talk about it even more.
+
+01:11.860 --> 01:15.370
+And this is redirect error.
+
+01:16.000 --> 01:23.660
+The redirect the standard error is used specifically in shell scripting.
+
+01:23.740 --> 01:31.870
+So you have a shout that you shellscript that you have created and you can send redirect to a file which
+
+01:31.930 --> 01:38.250
+only has get content when your script has some error in it.
+
+01:38.260 --> 01:42.120
+So these are a little bit more of a definition.
+
+01:42.120 --> 01:46.600
+I wanted to point out redirects Studi out to a file.
+
+01:46.660 --> 01:50.350
+This one redirect SDD out and append to a file.
+
+01:50.500 --> 01:56.650
+Meaning not only get that you're getting the output from the command that you're going to run by can
+
+01:56.710 --> 01:57.850
+append to it also.
+
+01:57.940 --> 01:59.250
+And we'll talk about it in a minute.
+
+01:59.270 --> 02:04.170
+And we actually run and these are pipes of course.
+
+02:04.240 --> 02:09.910
+And the end redirect SDD are standard error.
+
+02:09.910 --> 02:18.110
+So currently we are logged into the user Larry and right now he only has one file on it so let's create
+
+02:18.110 --> 02:31.710
+a more files file one of your touch file one file to file three.
+
+02:32.030 --> 02:37.130
+So now we've got four files of four files all together in one is the script which we're going to use
+
+02:37.130 --> 02:37.790
+later.
+
+02:38.090 --> 02:41.030
+And the other three are just touched.
+
+02:41.030 --> 02:42.040
+So I want to do it.
+
+02:42.050 --> 02:48.560
+LS So far you have seen me using just LS formalistic but this time instead of seeing it on the screen
+
+02:48.650 --> 02:51.040
+I wanted to go to.
+
+02:51.140 --> 02:54.990
+So you do a shift and then there's greater size.
+
+02:55.160 --> 02:56.460
+And this is the redirect.
+
+02:56.750 --> 03:01.270
+And I want to send it to file listing.
+
+03:02.240 --> 03:05.320
+So you see they didn't list anything on the screen this time.
+
+03:05.330 --> 03:05.960
+Why.
+
+03:05.960 --> 03:10.340
+Because I have redirected to file listing.
+
+03:10.340 --> 03:15.460
+And as you can see it has automatically the file listing wasn't even there before it created that file
+
+03:15.710 --> 03:17.560
+and put the listing in there.
+
+03:18.260 --> 03:21.210
+And less to make sure that actually did that.
+
+03:21.260 --> 03:22.930
+We'll do more.
+
+03:22.940 --> 03:26.430
+We can either do more our cat to look at a file kit.
+
+03:26.450 --> 03:33.040
+So let's do a cat instead file listing and guess what.
+
+03:33.110 --> 03:38.540
+It's got everything that Alice was supposed to show you on the screen instead of showing on the screen.
+
+03:38.690 --> 03:47.640
+It put it in that file now we're going to use the same command but instead we get her to the redirect
+
+03:47.650 --> 03:49.860
+in the past let's see what happened in this one.
+
+03:50.220 --> 03:51.980
+So we do.
+
+03:52.620 --> 04:00.770
+LS and stood up one grader decided we're going to have to file listing.
+
+04:01.950 --> 04:04.130
+OK so we still have the file listing file.
+
+04:04.230 --> 04:06.050
+But look at the content now.
+
+04:07.890 --> 04:09.850
+File system.
+
+04:10.590 --> 04:13.470
+And as you can see the content has doubled.
+
+04:13.710 --> 04:16.140
+It had whatever it previously had.
+
+04:16.410 --> 04:23.540
+And then it appended it again because are giving it to the greater than signs.
+
+04:23.680 --> 04:28.280
+So we are saying that redirect and append as well.
+
+04:28.590 --> 04:31.950
+Now we're going to use them more our pipe command.
+
+04:32.190 --> 04:37.420
+So let's see it is a very important directory.
+
+04:37.470 --> 04:46.000
+There are a lot of configuration files that reside there and we want to see it few lines at a time.
+
+04:46.130 --> 04:46.810
+OK.
+
+04:46.980 --> 04:49.210
+Because it might scroll off the screen.
+
+04:49.500 --> 04:52.280
+So we'll do a pipe and
+
+04:54.930 --> 04:56.840
+more and then enter.
+
+04:56.890 --> 05:01.810
+So as you can see it this goes all the way to the bottom and then there's more at the bottom.
+
+05:02.010 --> 05:08.370
+And when you have this you can either hit enter to see one line at a time and there are way too many
+
+05:08.370 --> 05:12.100
+lines and you want to see next page you can hit the space bar.
+
+05:12.100 --> 05:12.680
+There you go.
+
+05:14.210 --> 05:20.250
+And it keeps giving me page after page of what is listed under slashy DC that many files are listed
+
+05:20.790 --> 05:21.480
+under slash.
+
+05:21.480 --> 05:24.310
+DC.
+
+05:24.480 --> 05:29.850
+And last bit up this lecture is a redirect.
+
+05:29.870 --> 05:31.120
+Standard Error.
+
+05:31.270 --> 05:38.170
+So I help that you probably saw my files called my script I've created this script and days intentionally
+
+05:39.340 --> 05:44.410
+or mistakenly The script is too complex.
+
+05:44.420 --> 05:51.630
+I mean we are getting into scripting right now but asking to remove a system file which doesn't exist.
+
+05:51.940 --> 05:58.690
+So on purpose you know we made this error when we'll see how the redirect takes care of it.
+
+05:58.990 --> 06:07.670
+So we're going to say this is how you write a script doc slash and it's my script.
+
+06:07.870 --> 06:13.780
+And also you can type the first couple of characters and hit the tab key and complete your command for
+
+06:13.780 --> 06:14.550
+you.
+
+06:14.880 --> 06:24.730
+Let's if they are more then one command in that subdirectory which are identical to modify a file one
+
+06:24.730 --> 06:26.070
+file to file three.
+
+06:26.140 --> 06:31.570
+Then if you type f I try to tab that the system doesn't know which file you're talking about.
+
+06:31.570 --> 06:33.520
+5 1 5 2 5 3 right.
+
+06:33.580 --> 06:35.530
+In that case you have to type the whole thing.
+
+06:35.740 --> 06:43.430
+But since the script my script is the only file with that name I just typed in my and just kept it and
+
+06:43.430 --> 06:51.840
+it finished the whole thing and now I'm going to use the redirect and I'm going to send it to a file
+
+06:51.840 --> 06:53.660
+called error file.
+
+06:54.000 --> 06:59.970
+So your file doesn't exist right now or is going to send the error to this file and create that file
+
+06:59.970 --> 07:01.660
+and send the error to that file.
+
+07:02.190 --> 07:02.550
+OK.
+
+07:02.730 --> 07:07.520
+So it's showing you on the screen as well that this is the error error code to D6.
+
+07:07.950 --> 07:09.050
+And let's see what the
+
+07:11.880 --> 07:14.020
+and this are Eriphyle.
+
+07:15.270 --> 07:21.270
+And I'm going to do more on file and this is the actual error.
+
+07:22.540 --> 07:27.340
+It's telling you that you have a command in there to remove something and that file or directory doesn't
+
+07:27.340 --> 07:29.510
+exist or we cannot remove it.
+
+07:30.190 --> 07:32.560
+So this is how the redirect.
+
+07:32.560 --> 07:36.370
+And just like any other topic this topic is fairly broad as well.
+
+07:36.370 --> 07:40.040
+There are a lot of ways you can use it.
+
+07:40.720 --> 07:46.050
+But as far as your exam is concerned this should be sufficient if you want to research it more you know
+
+07:46.060 --> 07:52.630
+you can definitely do the man pages or search it online and get more information if you want me to elaborate
+
+07:52.630 --> 07:53.430
+further.
+
+07:53.440 --> 07:58.960
+Please make sure to leave a comment and any other confusion about or something I'll definitely explain
+
+07:58.990 --> 07:59.760
+to you.

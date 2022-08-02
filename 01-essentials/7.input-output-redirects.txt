@@ -1,0 +1,8 @@
+Input Output redirects
+
+`>` - redirects stdout toa file
+`>>`- redirects stdout & append to a file
+`|` - pipes
+`2>` - Redirects stderr
+
+`ls > filelisting` - redirect output to a file named filelisting

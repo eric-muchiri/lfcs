@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.900 --> 00:02.060
+Fellow students.
+
+00:02.220 --> 00:08.920
+So no we are going to log in into each one of our operating systems that he's called previously.
+
+00:08.970 --> 00:20.010
+Currently we are at the book to server command line and our user in this machine was Cur-Lee
+
+00:23.980 --> 00:25.590
+and password.
+
+00:26.260 --> 00:28.600
+And there we are log in right now.
+
+00:28.840 --> 00:32.470
+So in Linux there are two kinds of users.
+
+00:32.560 --> 00:35.700
+These are regular user like the one we just created.
+
+00:35.770 --> 00:43.120
+And of course on that one machine you could hundreds of users and there's going to be super user or
+
+00:43.120 --> 00:50.920
+root user and that is if you're coming from a Windows background that is similar to an administrator
+
+00:51.520 --> 01:00.040
+on a Windows machine which have all the powers to make and break things basically can change things.
+
+01:00.040 --> 01:03.220
+You can write to files that other people cannot.
+
+01:03.580 --> 01:05.430
+That the regular users cannot.
+
+01:05.620 --> 01:07.780
+So it's a good practice.
+
+01:07.840 --> 01:17.050
+Always log into a Linux machine using a non root I can only switch to root account when you really have
+
+01:17.050 --> 01:24.310
+to change something or if there's a file that you cannot see because it requires root permission to
+
+01:24.310 --> 01:26.060
+even look at it.
+
+01:26.770 --> 01:30.380
+So and we're going to discuss those in detail later.
+
+01:31.180 --> 01:38.280
+So if I want to exit out of here I can just simply type it and I'm back at the
+
+01:46.310 --> 01:56.010
+log out and log on will also get me logged out of the system and back to the problem in not going to
+
+01:56.010 --> 01:59.680
+look at Susa Linux.
+
+01:59.860 --> 02:08.640
+And since my machine right now is showing a locked I just have to type in the password and I'm back
+
+02:08.760 --> 02:09.970
+in.
+
+02:10.050 --> 02:16.710
+So I'm in the back in the Gulli and there are two ways you can lock your machine.
+
+02:16.710 --> 02:22.320
+So if you're leaving suppose if you're in a work environment is always always always a good idea to
+
+02:22.320 --> 02:24.190
+lock your screen.
+
+02:24.360 --> 02:27.740
+Don't just assume that eventually is the lock itself out.
+
+02:28.080 --> 02:32.840
+But because during that time it's somebody you really want to disrupt stuff.
+
+02:33.390 --> 02:36.930
+They can come and do it and you'll be blamed for it because you're a machine.
+
+02:36.930 --> 02:41.440
+So always have good ideas good security practice to lock screen.
+
+02:41.580 --> 02:50.730
+And if you are completely leaving the system you can leave and you'll you'll get these options suspend
+
+02:50.760 --> 02:54.510
+reboot shut down and log out so you can log out
+
+02:57.540 --> 03:03.170
+and you can back at the problem and hear from here and type in the password again.
+
+03:07.850 --> 03:11.260
+And your log back.
+
+03:11.730 --> 03:18.230
+Now we're at our Centaurus machine and Larry is a user on that
+
+03:22.540 --> 03:29.610
+logged it although I kind of briefly went over all of this during the installation process as well.
+
+03:29.820 --> 03:34.440
+But since this is part of your domain and competencies.
+
+03:34.680 --> 03:41.190
+So I wanted to make sure that I do show it to you again just so you know in each of these operating
+
+03:41.190 --> 03:46.040
+system how does the log in and log out process works.
+
+03:46.050 --> 03:48.280
+So on to this machine.
+
+03:48.300 --> 03:50.470
+You see this little power button here.
+
+03:51.230 --> 03:53.180
+You just click on that.
+
+03:54.290 --> 03:59.430
+And from here you just click on the user and you have the lock out option here.
+
+04:01.730 --> 04:07.520
+And then will prompt you you're going to be locked out in 60 seconds and you can do it earlier.
+
+04:09.340 --> 04:14.490
+And that should bring you back to the log in go.
+
+04:14.520 --> 04:22.470
+So this is how you log in and log out of all these three flavors of Linux that you have discussed so
+
+04:22.470 --> 04:23.260
+far.

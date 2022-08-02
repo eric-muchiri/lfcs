@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.900 --> 00:05.630
+Hello and welcome again in this lecture we get to talk about the Linux file system.
+
+00:05.820 --> 00:11.600
+So the top of the Linux system is the root system which is just a slash.
+
+00:11.840 --> 00:17.590
+And this is the logical beginning of the Linux file system structure.
+
+00:17.790 --> 00:25.950
+Every single falses file path in Linux begins from root in one way or the other as Slash contains the
+
+00:25.950 --> 00:29.330
+entirety of your operating system.
+
+00:29.420 --> 00:36.230
+Next one is slash bill which this is where most of your binary files are stored.
+
+00:36.230 --> 00:41.280
+Typically for the Linux terminal commands and core utilities such as CD
+
+00:44.030 --> 00:50.410
+PWT and the these are some of the covers we have already used in this course and something that they
+
+00:50.410 --> 00:51.610
+use in the future.
+
+00:52.220 --> 00:54.990
+But this is where they are kept.
+
+00:55.040 --> 00:56.490
+The next one is flash.
+
+00:56.630 --> 01:03.490
+This is where all the needed files for Linux to boot are kept and next one is slice death.
+
+01:03.590 --> 01:11.680
+This is very physical devices are mulcted such as hard drive us drives optical drives the CD-ROM.
+
+01:11.840 --> 01:18.180
+They already export the activity of system hard drive is mounted under slash def slash SDH.
+
+01:18.510 --> 01:27.330
+RAZ You use the thumb drive might be mounted under slash desk as d e so it differs from its different
+
+01:27.330 --> 01:30.500
+from you know different computers that have that differently.
+
+01:30.540 --> 01:33.230
+But it's always mongered and slash.
+
+01:33.960 --> 01:38.840
+Next one is the slash EDC which is the R at C also.
+
+01:39.150 --> 01:45.950
+This is one of the most important five system and this is what the configuration Pozza store.
+
+01:46.610 --> 01:55.510
+And for example one of the most important files is the host file which is this is where the host information
+
+01:55.620 --> 01:58.220
+hostname host IP address is located.
+
+01:58.420 --> 01:59.830
+It's the password file.
+
+01:59.830 --> 02:04.320
+This is where all the user passwords including the root user are located.
+
+02:04.450 --> 02:07.390
+So it's a very important system.
+
+02:07.390 --> 02:09.350
+Next one is slush Libe.
+
+02:09.630 --> 02:12.370
+And this is where libraries are kept.
+
+02:12.370 --> 02:17.800
+You'll notice that many times when installing little software packages additional libraries are also
+
+02:17.800 --> 02:23.880
+automatically downloaded and they almost always start with like dush of thing.
+
+02:23.950 --> 02:27.600
+These are basically the files needed for your programs on Linux to work.
+
+02:27.640 --> 02:34.750
+You can think of this folder as somewhat equal to the program files folder on Windows.
+
+02:35.020 --> 02:40.180
+The next one is slash media could be sliced CD-ROM as well.
+
+02:40.280 --> 02:48.000
+Another place where external drives such as optical devices and EULA's drives can be Mohmed next sort
+
+02:48.000 --> 02:53.780
+of slash MMD And as you can guess this is all too far but it's a placeholder it's an empty file.
+
+02:53.790 --> 03:00.870
+But what you do is I suppose if you have to if you want to use the necrophile system and Fs you would
+
+03:00.870 --> 03:04.290
+melt your file system files flash them into.
+
+03:04.360 --> 03:09.890
+I mean you could get anywhere you want but it's usually typically people moldered on human.
+
+03:10.250 --> 03:18.560
+And they share it so that people who are in the same network can access that phone system.
+
+03:18.840 --> 03:26.520
+The next one is slash BT are opt optional software for the system that is not already mandated by your
+
+03:26.730 --> 03:28.350
+distros package manager.
+
+03:28.560 --> 03:35.500
+So the stuff that's not installed by default can be stored here.
+
+03:35.540 --> 03:36.190
+It depends.
+
+03:36.200 --> 03:40.070
+You know you can install it anywhere in your system you can you can install it in your route if you
+
+03:40.070 --> 03:40.580
+want to.
+
+03:40.610 --> 03:51.650
+And if you have the space but good practice is to put it in slush or if you have additional optional
+
+03:51.650 --> 03:59.360
+software that you want to use the next point is the slash route which is the home directory for the
+
+03:59.360 --> 04:00.060
+user.
+
+04:00.950 --> 04:07.180
+So like I remember in our example we had slash slash Larry that was Larry's home directory.
+
+04:07.370 --> 04:13.930
+So all in all non-root users will have their home directories in slash hole flash something they'll
+
+04:13.940 --> 04:17.700
+use a user name but for root is just slash.
+
+04:17.980 --> 04:21.960
+This is where root files are kept.
+
+04:22.040 --> 04:24.390
+The next one is slash Espin.
+
+04:24.470 --> 04:32.300
+It's similar to slash except that it is dedicated to certain commands that can only be run by the user
+
+04:32.420 --> 04:34.190
+or the super user.
+
+04:34.190 --> 04:37.240
+Next one is slash TMB are temporary files.
+
+04:37.250 --> 04:44.800
+This is also used in one of our modules up before and this is our temporary files are stored and they
+
+04:44.800 --> 04:50.390
+are usually deleted up punch at them which saves you from having to manually delete them like is required
+
+04:50.390 --> 04:51.060
+in Windows.
+
+04:51.260 --> 04:53.470
+So they are not there permanently.
+
+04:53.510 --> 04:59.250
+You only put stuff that you don't want to be stored permanently.
+
+04:59.340 --> 05:07.870
+The next system is the first one to slash user which contains files and utilities that are shared between
+
+05:07.870 --> 05:08.570
+users.
+
+05:10.730 --> 05:12.380
+Next one is slash var.
+
+05:12.380 --> 05:15.250
+This is also very important and you're going to be using that a lot.
+
+05:15.430 --> 05:21.690
+The variable data kept usually system locks but could also include other types of it.
+
+05:21.710 --> 05:23.000
+I well to see some logs.
+
+05:23.030 --> 05:28.630
+Our var log messages are one of the files that you access a lot.
+
+05:28.630 --> 05:34.570
+Suppose if there are any kind of crash order to think like that you look at var log messages so SSAS
+
+05:34.730 --> 05:36.550
+slash mark slash log.
+
+05:38.950 --> 05:42.900
+And the last one is the slash Proc. processes.
+
+05:42.970 --> 05:47.640
+This is where a lot of system information is represented as files.
+
+05:47.720 --> 05:54.140
+It is basically provides a way for the Linux kernel the core of the system to send and receive information
+
+05:54.140 --> 05:57.110
+from various processes running in the Linux environment.

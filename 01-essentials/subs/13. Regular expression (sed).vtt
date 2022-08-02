@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.960 --> 00:09.210
+Hello and welcome again in this lecture we're going to talk about the well known streamlets it is called
+
+00:09.210 --> 00:12.580
+said R S E D.
+
+00:12.870 --> 00:18.810
+I'll show you some examples of it because it is listed as one of the competencies in your domain one
+
+00:19.110 --> 00:24.470
+so you might get asked questions about.
+
+00:24.880 --> 00:29.740
+So I've made a copy of the passport file and that's what you get a plain old password file is a very
+
+00:29.740 --> 00:30.390
+important file.
+
+00:30.400 --> 00:32.330
+So you don't want to directly mess with it.
+
+00:32.680 --> 00:40.630
+But if you want to you can just get a type in a paragraph about five or six or ten lines and just use
+
+00:40.630 --> 00:42.230
+God as a test file.
+
+00:42.460 --> 00:44.630
+But I'm using the password file.
+
+00:44.830 --> 00:52.030
+So I call it my password and put it into Larry's whole directory and this is what I'm here to do some
+
+00:52.150 --> 01:03.150
+typing set which is a stream editor dash and you know that I'm going to want to read lines five to 10
+
+01:03.360 --> 01:04.380
+out of this.
+
+01:04.380 --> 01:05.500
+It's a big file.
+
+01:05.570 --> 01:09.090
+I'm only reading 5 to 10 all of this.
+
+01:09.110 --> 01:17.070
+Can people just stop at 10 in the file is my password.
+
+01:17.070 --> 01:17.920
+There you go.
+
+01:17.940 --> 01:22.240
+So it's basically reading me only five files.
+
+01:22.530 --> 01:29.190
+So you have cut down the information that we need out of the whole password file because the rest of
+
+01:29.190 --> 01:33.060
+the information is it's not rather than for us.
+
+01:33.060 --> 01:34.040
+So that's why.
+
+01:34.250 --> 01:38.880
+So this is one of the use we are going to use another example in this file.
+
+01:38.910 --> 01:45.360
+In this example it is possible to print the entire file except a certain range.
+
+01:45.390 --> 01:54.900
+So suppose you want to exclude the files from 20 to 30 the lines from 20 30 out of the password file.
+
+01:55.310 --> 01:58.170
+Those are the lines that I want to exclude.
+
+01:58.220 --> 02:08.180
+So this how you do that said 20 Kubla 30 de
+
+02:10.960 --> 02:14.770
+la password.
+
+02:14.800 --> 02:24.240
+So right now it's showing everything except the line between 20 to 30.
+
+02:24.250 --> 02:31.020
+No this was just a Vueling suppose I wanted to play something I want to replace I started it said
+
+02:34.250 --> 02:40.840
+in single quotes to get put in S which means switch and we've got to switch.
+
+02:40.840 --> 02:42.250
+Let's see.
+
+02:48.080 --> 02:50.260
+House.
+
+02:52.970 --> 02:58.610
+In the G is like the ending of switching and POS Palm Pilot.
+
+02:58.630 --> 02:59.350
+My password
+
+03:02.260 --> 03:11.470
+and as you can see in the entire file there very ever there was whole of house so it's a very nifty
+
+03:12.100 --> 03:17.230
+tool that you can use that can really shorten your editing process.
+
+03:17.260 --> 03:23.770
+Instead of going line by line and changing something you are changing adjust on the fly and has a lot
+
+03:23.770 --> 03:28.710
+of options available that you can go through and see if you really want to learn more about it.
+
+03:29.110 --> 03:36.040
+But in a short lecture without boring you with all the other examples that should give you an idea of
+
+03:36.100 --> 03:38.110
+what the OC does.

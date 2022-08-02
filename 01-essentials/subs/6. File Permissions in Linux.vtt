@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.300 --> 00:06.470
+In this lecture we're going to talk about Linux file permissions in the file permissions.
+
+00:06.470 --> 00:11.690
+The first 10 characters in the output of ls dash l ls.
+
+00:11.690 --> 00:14.510
+By the way is file listing.
+
+00:14.540 --> 00:20.280
+If you are in a directory and you just type LS you'll get all the files that are under that directory
+
+00:20.480 --> 00:28.430
+is similar to dossers are windows deicer command directory Diyar.
+
+00:28.630 --> 00:29.320
+So what.
+
+00:29.350 --> 00:30.040
+Ls.
+
+00:30.080 --> 00:36.040
+Ill give you a long listing it gives you a little bit more information instead of just the filenames.
+
+00:36.550 --> 00:42.800
+So the files the first of these characters is used to indicate the file types or the file type could
+
+00:42.800 --> 00:45.860
+be just a hyphen which is a regular file.
+
+00:45.920 --> 00:49.810
+It could start with the D which is a directory.
+
+00:50.210 --> 00:58.390
+It could start with an L which is a symbolic link could start with the C which is a character device
+
+00:59.360 --> 01:03.170
+and it could also start with a dash B are blocked device.
+
+01:03.500 --> 01:09.560
+So the next nine characters of the file attributes are called the file mode and represent the read write
+
+01:09.620 --> 01:13.800
+and execute permissions of the files owners the files.
+
+01:13.810 --> 01:21.020
+Group owner and the rest of the users commonly referred to as the world whereas the read permission
+
+01:21.020 --> 01:28.640
+on a file allows the same to be open and read the same permission on a directory allows its contents
+
+01:28.640 --> 01:29.650
+to be listed.
+
+01:29.870 --> 01:36.770
+If the execute command is also set and here's I have an example.
+
+01:36.770 --> 01:40.640
+This is what read write and execute look like.
+
+01:40.820 --> 01:44.810
+So up if you are familiar with binary numbers.
+
+01:45.140 --> 01:53.060
+If you are familiar with binary numbers you'll have to do the power zero which means one to the power
+
+01:53.060 --> 02:02.110
+one which is two to the power 2 which is for you add them up and that's number 7.
+
+02:02.570 --> 02:07.880
+Here we have nothing here nothing here.
+
+02:08.120 --> 02:14.740
+That means that there is no binary number here but R has a two part too.
+
+02:15.440 --> 02:19.130
+So that means there is a 4 so that addition is 4.
+
+02:19.160 --> 02:20.120
+Same way here.
+
+02:20.150 --> 02:25.860
+So the file permission if this is given to a particular file will be 7:04 for.
+
+02:25.970 --> 02:33.470
+That means that the owner has all the permission read write and execute the group owner only has read
+
+02:33.470 --> 02:39.920
+permission rest of the world has only read permission as well and we look at it in a minute.
+
+02:39.960 --> 02:46.410
+In the system so we are logged into our machine right now.
+
+02:46.660 --> 02:54.090
+I'm going to do an ls l and this is what you were talking about seeing the beginning if you have a D.
+
+02:54.280 --> 02:55.810
+That's a directory.
+
+02:56.110 --> 03:00.380
+If you have a dash only that moves as a regular file.
+
+03:00.640 --> 03:08.020
+I don't have an example off a block or character device in it but it will be represented by a b or c
+
+03:08.200 --> 03:15.730
+lowercase and if is a symbolic link which we going to talk about later in the course which will be presented
+
+03:15.730 --> 03:18.890
+by dasht L.
+
+03:19.000 --> 03:26.200
+So we get to for example we are going to take one of our files say say take Faulhaber Faltu.
+
+03:26.350 --> 03:34.800
+This Americare So currently that user or the owner has read write bagnio execute.
+
+03:35.080 --> 03:41.020
+The group has read no right to rest of the world has read.
+
+03:41.080 --> 03:52.740
+No right no exit existing I can make it see my 7 4 4 5 5 2.
+
+03:53.510 --> 04:01.150
+And let's see what the permission looks like no less dash it out while too and you can see the permission
+
+04:01.150 --> 04:10.150
+is changed now the owner has all three permissions we try to execute the group still has the previous
+
+04:10.150 --> 04:16.160
+permissions only read and the rest of the while also only read this is.
+
+04:16.480 --> 04:27.460
+And if you further change it let's see smogs 777 file to do any LS.
+
+04:27.940 --> 04:31.320
+Gosh A-L a file to know.
+
+04:31.460 --> 04:39.820
+Not everybody has all the permissions so this is you'll only do in a situation where you do want everybody
+
+04:39.820 --> 04:46.780
+in the group and the rest of the world to have read write and execute to this particular file.
+
+04:46.840 --> 04:52.970
+Otherwise this is probably not a good idea to give 7 7 7 2 and 5
+
+04:55.820 --> 04:58.840
+OK beside using the numbers.
+
+04:58.890 --> 05:03.320
+You can also use characters for instance.
+
+05:03.450 --> 05:05.780
+Let's see we have Alastair's.
+
+05:05.870 --> 05:11.120
+Well let's pick on file five this time.
+
+05:11.250 --> 05:12.170
+So see.
+
+05:12.190 --> 05:22.020
+Mom and I want for all of the users to have execute permission on this file.
+
+05:22.020 --> 05:24.190
+File 5.
+
+05:24.300 --> 05:25.050
+Now let's do it.
+
+05:25.050 --> 05:29.090
+LS That scale Bye bye.
+
+05:29.640 --> 05:35.190
+And as you can see no owner has read write access.
+
+05:35.320 --> 05:40.690
+Eat read write execute group read and execute.
+
+05:40.890 --> 05:43.180
+And the rest of the world read and execute.
+
+05:45.090 --> 05:50.930
+OK and suppose if I wanted to take away the execute permission for everybody.
+
+05:50.960 --> 05:57.740
+C is not a minus X file 5.
+
+05:58.380 --> 06:05.760
+And another neat trick if you just went up there in Linux then it'll bring back the command so you don't
+
+06:05.760 --> 06:07.440
+have to retype the whole thing again.
+
+06:07.570 --> 06:15.480
+So I'm just going to do a bare and up arrow again and enter as you can see my exit queue permission
+
+06:15.480 --> 06:22.830
+has gone from all three different kind of yours so you can play around with this would execute as well
+
+06:22.830 --> 06:24.460
+as write and read.
+
+06:24.540 --> 06:34.400
+Subtract them add them to see how the file is changing and also the octal number 7 4 4 6 4 4 7 7 7.
+
+06:34.410 --> 06:39.020
+Try all these different combinations to see what changes you see when you do it.
+
+06:39.030 --> 06:39.960
+LS Dashiell.

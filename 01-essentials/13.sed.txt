@@ -1,0 +1,14 @@
+SED
+stream editor
+
+`sed -n '5,10p' mytext`
+
+- the above reads lines 5 to 10 of the file 'mytext'
+
+`sed -n '5,10d' mytext`
+
+-Reads the entire file except for lines 5 to 10 
+
+`sed  's/home/house/g' mytext`
+
+-replaces all home entries to house /g indicates the end of switching

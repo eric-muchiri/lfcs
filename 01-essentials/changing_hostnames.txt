@@ -1,0 +1,38 @@
+user terminal: [user@host]$/#
+to change the hostname:
+
+You must be root to change hostnames
+
+vi /etc/sysconfig/network
+Set:
+HOSTNAME=myhost.mydomain
+
+The next file to edit
+
+vi /etc/hosts
+format:
+ip-address  host-domain  hostname
+e.g
+10.10.10.10 fedora.lfcs.test.com    hostname
+tab spaces
+
+for hostname change to take effect
+1. reboot or:
+
+2. restart network service 
+/etc/init.d/network restart
+
+exit the terminal
+You can get the name of your host by typing hostname in the terminal
+e.g:
+hostname myname.domain.com
+
+the above sets a hostname
+
+hostname
+gives back the value of the hostname
+
+restart the network service
+log back in 
+hostname value updatec
+

@@ -1,0 +1,175 @@
+WEBVTT
+
+00:01.030 --> 00:06.680
+Hello in this lecture we're going to talk about links hard links and soft links in Linux.
+
+00:06.980 --> 00:15.600
+So in Linux everything is a file which means file is a file and it treats directory as a file as well
+
+00:15.780 --> 00:21.130
+although we know the difference but as far as Linux is concerned it is treating.
+
+00:21.130 --> 00:26.560
+You can pretty much do all of the commands that you can do on a file you can do on our directory as
+
+00:26.560 --> 00:32.520
+well and a file is fundamentally a link to an iPod.
+
+00:32.840 --> 00:33.250
+What is it.
+
+00:33.250 --> 00:37.660
+I know I know it is a data structure that stores everything about a file.
+
+00:37.660 --> 00:40.440
+Apart from his name an actual code.
+
+00:40.600 --> 00:44.550
+So a very important interview question also what isn't I.
+
+00:44.740 --> 00:46.280
+So I know it's a method that.
+
+00:46.310 --> 00:53.360
+Or a structure that stores everything about a file at the site except his name its name and sexual content.
+
+00:54.510 --> 01:00.870
+So hardlink is a file that points to the same underlying note as under the file in case you delete one
+
+01:00.870 --> 01:04.010
+file it will remove Royland to the.
+
+01:04.050 --> 01:12.300
+I note as a symbolic link or soft link is a link to another file in the file system.
+
+01:12.300 --> 01:17.070
+Another important difference between the two types of legs is that hard links can only work within the
+
+01:17.070 --> 01:25.220
+same file system while symbolic links can go across different file systems in order to create hard lines.
+
+01:25.230 --> 01:28.040
+In Linux we will use the and utility.
+
+01:28.350 --> 01:37.330
+For example the following command creates a hardlink will do l s dash L to see what we have in the file
+
+01:37.330 --> 01:39.320
+system right now.
+
+01:39.480 --> 01:45.010
+I have a script called my script so what I'm gonna do I'll do.
+
+01:45.040 --> 01:48.690
+Alan my script
+
+01:53.690 --> 01:56.280
+at all call it test.
+
+01:56.590 --> 01:56.840
+Could
+
+02:01.400 --> 02:13.160
+and all do ls dashed out and you can see that it has been created right here as a link right now looking
+
+02:13.160 --> 02:18.190
+at the output using ls command are the new file is not indicated as a link.
+
+02:18.230 --> 02:22.200
+It is shown as a regular file that employs that.
+
+02:22.610 --> 02:25.390
+The test file that we just created.
+
+02:25.400 --> 02:30.400
+The link is just another regular executable file that points to the same underlying.
+
+02:30.440 --> 02:37.180
+I know as of our original file which was my script.
+
+02:37.710 --> 02:45.000
+So now we going to deal with the how to create symbolically so in order to create a symbolic link symbolic
+
+02:45.020 --> 02:49.940
+link will use same Ellen utility with that dash as such.
+
+02:49.940 --> 02:55.000
+So for example what I have done is remember we had a script called my script.
+
+02:55.100 --> 03:01.230
+I had moved it to slash T and P Just to show you that it goes cross file system across file systems
+
+03:01.610 --> 03:03.770
+so we going to create a link here.
+
+03:03.830 --> 03:09.340
+But actually the link is created for the file which is the design which resides in slushed term.
+
+03:09.500 --> 03:12.530
+And right now we own Larry's home directory.
+
+03:12.530 --> 03:14.540
+So we're going to do.
+
+03:14.540 --> 03:30.670
+LS Alynda asked and then slashed VMP slash my script and then we get a call at let's call it a test
+
+03:31.110 --> 03:40.300
+to get our link is created.
+
+03:40.760 --> 03:46.420
+And here you can see at the bottom of the screen this is showing an out.
+
+03:46.600 --> 03:51.560
+You remember the file types that were discussed the file permissions in one of the previous lectures.
+
+03:51.590 --> 03:53.050
+So here tells you right.
+
+03:53.170 --> 03:53.650
+And you do it.
+
+03:53.660 --> 04:00.960
+LS dash L that this the bottom file is a link and it's link.
+
+04:00.980 --> 04:06.340
+Test 2 is actually linked to the file call slash temp slash.
+
+04:06.500 --> 04:18.140
+So now you can access it anywhere probably within the system within this server and you can go if you
+
+04:18.140 --> 04:19.120
+want to see it.
+
+04:19.220 --> 04:20.640
+You can see to test to.
+
+04:20.670 --> 04:27.510
+You can see two slashed him slash my skirt and you'll end up getting at the same point.
+
+04:28.460 --> 04:32.210
+And suppose once you're done with the link you don't need it anymore.
+
+04:32.510 --> 04:38.240
+Instead of it being just a stale net links on where you can go and remove it just like you would remove
+
+04:38.330 --> 04:39.320
+any of the file.
+
+04:39.380 --> 04:41.610
+So remember our link is test.
+
+04:42.170 --> 04:48.790
+And I'm just going to use the remove command which is our m test too.
+
+04:49.140 --> 04:54.190
+And when we do our LS dash L is gone.
+
+04:54.380 --> 04:55.240
+Tester's.
+
+04:55.710 --> 04:57.370
+So that link that we create.
+
+04:57.390 --> 05:00.060
+It doesn't show us there and it's gone.

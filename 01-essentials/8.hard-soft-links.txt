@@ -1,0 +1,27 @@
+Hard and soft(symbolic) links
+
+In linux everything is a file(even directories)-a link to an inode
+
+A file is a link to an inode
+
+I-node - structure/metadata that stores everything about a file exept its name and actual content
+
+hardlink - file that points to the same underlying inode as another file
+    - only works within the same file system
+    
+softlink - A ink to another filename in the filesystem
+
+To cretae a hardlink we use the 'ln' utility
+e.g
+`ln myfile test` - creates a link to myfile called test
+
+symbolic link
+
+'ln' utility with -s switch
+`ln -s /tmp/myfile test2` - creates a file test2 which is a link to /tmp/               myfile
+    
+    when youu ls -l you see the file but doesn't begin with a - like a regular file. it begins with an l because it's a link
+    
+you can remove a link just like a regular file
+
+`rm filename`

@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.700 --> 00:06.100
+Hello students and welcome in this lecture we're going to talk about the Linux wine comment which is
+
+00:06.100 --> 00:13.870
+one of the most important and much use command and Linux systems fine commands used to search and locate
+
+00:13.990 --> 00:20.500
+lists to files and directories based on conditions that use this file of files that match the arguments
+
+00:21.020 --> 00:28.360
+fine can be used in a variety of conditions like you can find files permissions by users by groups by
+
+00:28.360 --> 00:33.200
+file type by date by size and you can use other criteria.
+
+00:33.210 --> 00:39.490
+Also So we log into our Linux machine and we're going to use some examples.
+
+00:39.490 --> 00:42.690
+So one of the things that you can do I haven't discussed that yet.
+
+00:42.970 --> 00:50.740
+There's a thing there's a help feature clinics in all standard Linux machines which is called manual
+
+00:50.740 --> 00:52.670
+pages or man pages.
+
+00:52.810 --> 00:57.460
+So you need to look up information that you're not sure about.
+
+00:57.460 --> 00:59.280
+You can type mad.
+
+00:59.410 --> 01:06.580
+And then the command that you're looking for like in my case or look up find and Ill give you pages
+
+01:06.580 --> 01:13.000
+after pages of depending on how intense that command and how much detail it needs.
+
+01:13.140 --> 01:18.770
+But it's got quite a bit of detail on the syntax and the use of the find command.
+
+01:18.970 --> 01:25.060
+So going into the details of this right now will probably be too much will be overkill because right
+
+01:25.060 --> 01:27.370
+now you're just going on a flight find command.
+
+01:27.520 --> 01:29.870
+Just type 2 to get out of it.
+
+01:30.190 --> 01:32.330
+But I wanted to show that feature of Linux.
+
+01:32.490 --> 01:39.340
+Any time you have any confusion instead of going to Google you can just type in man for that command.
+
+01:40.560 --> 01:43.320
+So we'll start off with a very simple example.
+
+01:43.320 --> 01:47.340
+The reason I log in as root is when you're writing a file command.
+
+01:47.670 --> 01:54.360
+If you log it as a non-root user and you're searching through your entire system that you're going to
+
+01:54.360 --> 02:02.270
+be a lot of file file systems a lot of directories that go on route user would not have access to.
+
+02:02.310 --> 02:04.340
+They can't even see what's in there.
+
+02:04.440 --> 02:07.950
+So you're going to get a lot of permission denied.
+
+02:08.100 --> 02:11.270
+If you want to read the fine command as a regular user.
+
+02:11.460 --> 02:17.850
+So that's why it's a good idea to run a fine command as root user so that way it will go through each
+
+02:17.850 --> 02:22.650
+and every directory and sub directory and get you the output that you're looking for.
+
+02:23.940 --> 02:30.190
+So suppose in the root directory I know when you have the backslash that that's also called the root
+
+02:30.190 --> 02:30.960
+directory.
+
+02:31.150 --> 02:32.450
+So on the root directory right.
+
+02:32.470 --> 02:34.440
+No let's see what I have in here.
+
+02:34.540 --> 02:34.780
+OK.
+
+02:34.780 --> 02:36.640
+These are like the general files.
+
+02:36.640 --> 02:38.990
+There are a couple of files that I have created.
+
+02:39.310 --> 02:46.210
+So what I'm going to do is create a clone of called touch test.
+
+02:46.270 --> 02:50.060
+TIA XTi pretext just created that.
+
+02:50.110 --> 02:51.290
+Now we're going to find it.
+
+02:51.390 --> 02:54.040
+See if my system can find it fine.
+
+02:55.410 --> 03:01.560
+This is the syntax doc means you start from the current directory where I am right on the present working
+
+03:01.560 --> 03:02.540
+directory.
+
+03:02.700 --> 03:10.020
+Then you type in Dasch name kik name of the file that's to follow.
+
+03:10.020 --> 03:14.800
+Test the test doc XTi.
+
+03:14.980 --> 03:19.780
+Now since I only have one file that should give me the output of that one file that I just created.
+
+03:20.830 --> 03:24.190
+Well I created one before which is under Larry.
+
+03:24.280 --> 03:27.640
+So it's on both of a test doc TXI.
+
+03:28.230 --> 03:28.590
+OK.
+
+03:28.690 --> 03:30.080
+So that's how simple it is.
+
+03:30.190 --> 03:36.110
+Just you need to remember the syntax of it and if you forget just look up many pages.
+
+03:36.370 --> 03:43.980
+So in this case we use the dot to tell the system to start finding from our current directory.
+
+03:44.140 --> 03:48.000
+But what if I want to specify a particular directory.
+
+03:48.370 --> 03:59.010
+OK so now what I've done is I want to slash hole that is still owned by root and I created a file there
+
+03:59.610 --> 04:02.190
+which is called test to the test.
+
+04:02.440 --> 04:07.690
+OK so I'm going to use the same fine commands this time but instead of using the dot on the specifying
+
+04:07.690 --> 04:17.510
+the actual directory which is slash home dash name of the file and I'm going to call it test to test
+
+04:17.540 --> 04:17.780
+you.
+
+04:17.970 --> 04:19.860
+We'll see if our system will find it.
+
+04:19.980 --> 04:24.950
+And yes he did find it and give you the exact part of where that file is located.
+
+04:25.170 --> 04:30.990
+So right now I'm using very simple example whatever I'm trying to fight it gets found right away and
+
+04:30.990 --> 04:33.900
+there's only one instance of it at work.
+
+04:34.240 --> 04:40.320
+If you are on a server which has been up for a while doing a lot of stuff then you're going to have
+
+04:40.320 --> 04:46.560
+several instances of that file probably at different locations and your system is going to take a while
+
+04:46.940 --> 04:47.640
+too.
+
+04:47.780 --> 04:48.830
+Might take me a while.
+
+04:48.830 --> 04:55.020
+I mean could take probably 30 seconds or a minute depending on how much stuff you have or how much the
+
+04:55.020 --> 04:59.100
+system has to go through in order to get you the right file that you're looking for.
+
+04:59.100 --> 05:04.150
+But right now it's very quick for us because it's a test machine and I don't have too much installing
+
+05:04.160 --> 05:05.490
+it right now.
+
+05:06.270 --> 05:06.570
+OK.
+
+05:06.570 --> 05:14.810
+One more example before we finished that discussion of box fight is we want to fight all the empty files.
+
+05:15.140 --> 05:15.900
+OK.
+
+05:16.020 --> 05:22.210
+So I remember how to find out where we are currently.
+
+05:22.230 --> 05:26.470
+You do present working directory r p w d enter.
+
+05:26.510 --> 05:29.020
+So I'm in slash T P right.
+
+05:29.020 --> 05:34.960
+So I mean the root directory and the subject is T.M..
+
+05:35.900 --> 05:41.090
+Anything that you don't want to keep for a long time in Linux just make it a habit of putting in TMB
+
+05:41.510 --> 05:46.370
+because you can you can remember to remove the furnace but you're done with it.
+
+05:46.370 --> 05:52.910
+So what I've done I use the touch commit have and then I've created empty
+
+05:55.570 --> 05:58.320
+empty want and empty to an empty three.
+
+05:58.470 --> 05:58.710
+OK.
+
+05:58.720 --> 05:59.760
+This is how I get it.
+
+05:59.950 --> 06:04.680
+So what I'm going to have my find command go in search all these empty files.
+
+06:04.720 --> 06:10.640
+See if it can actually find so I'm going to type in the pack first.
+
+06:10.640 --> 06:13.030
+So fight in slash term.
+
+06:13.070 --> 06:16.850
+I'm telling my systems specifically go to slash.
+
+06:17.070 --> 06:28.790
+Don't worry by looking anywhere else type af this is that because the file so and the file type is in.
+
+06:29.120 --> 06:31.070
+Let's see if it can find it.
+
+06:31.070 --> 06:37.760
+It found all three files that I have because when you create a file with a touch command it is empty
+
+06:38.690 --> 06:44.450
+because touch command is used just for testing purposes that if you have write access to a certain directory
+
+06:44.750 --> 06:50.060
+because you don't have write access you're going to get a message denied that you don't have write permission
+
+06:50.390 --> 06:52.450
+to write anything in this directory.
+
+06:52.580 --> 06:55.790
+It will let you create a file even by touch.
+
+06:55.790 --> 07:00.080
+So that's what touches use for and that's why these files are empty.
+
+07:00.080 --> 07:06.510
+They have nothing in them unless you use a vi editor going to the flop and actually write something
+
+07:06.510 --> 07:09.120
+in there and then save it then you have something.
+
+07:09.530 --> 07:12.450
+OK this is our discussion about flight.

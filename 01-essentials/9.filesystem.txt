@@ -1,0 +1,18 @@
+Linux file system
+
+/- root file system
+/bin- binary files
+/boot- files needed to boot
+/dev- where physical devices are mounted
+/etc- configuration files
+/lib- libraries
+/media- external devices
+/mnt- placeholder for mounting other drives
+/opt- processes folder
+/root- home directory for the root user
+/sbin - similar to /bin - but dedicated to certain commands run by the root user
+/tmp - temporary files - deleted upon shutdown
+/usr - files and utilities shared among users
+/var - variable data e.g logs
+/proc - processes - linux kernel communicates to running processes
+

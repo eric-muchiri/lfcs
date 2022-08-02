@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.690 --> 00:06.800
+Hello and welcome in this lecture we get to talk about Linux archiving and compression tools.
+
+00:07.170 --> 00:15.900
+So file our cutting tool groups a set of files into a single standalone file that can be backed up to
+
+00:15.900 --> 00:18.030
+several files of media.
+
+00:18.060 --> 00:22.080
+It can be transferred across a network are sent via email.
+
+00:22.200 --> 00:27.960
+The most frequently used frequently use our common utility in linnets is called Taar.
+
+00:28.200 --> 00:35.700
+Then in archiving utilities use along with the compression tool it allows to reduce the disk size that
+
+00:35.700 --> 00:39.090
+is needed to store the same files and information.
+
+00:39.090 --> 00:46.440
+So basically if you have like say three files that's taking like 50 megs there are big file and a few
+
+00:46.590 --> 00:50.230
+tar them and combine all three of them together.
+
+00:50.760 --> 00:53.200
+Then it'll take a lot less space than 15 minutes.
+
+00:53.520 --> 01:00.110
+And once you send them wherever you want to send them via email or via whatever means and then untired
+
+01:00.150 --> 01:04.830
+them and you'll have the original three files back with whatever size they had.
+
+01:08.310 --> 01:11.880
+So tar bundles a group of files together into a single archive.
+
+01:12.000 --> 01:15.120
+It's commonly called a tar file our tar balls.
+
+01:15.390 --> 01:21.360
+The name originally stood for tape archiver but we must note that you can use this tool to archive data
+
+01:21.660 --> 01:23.360
+to any kind of ridable media.
+
+01:23.370 --> 01:32.190
+Not only tapes TAR is normally used with a compression tool such as zip zip to our Z to produce a compressed
+
+01:32.200 --> 01:41.460
+top 10 are we going to use some examples in which we're going to use all three compression tools which
+
+01:41.460 --> 01:49.860
+is that GZ got busy too and got X and we're going to see examples of all three of them.
+
+01:49.860 --> 01:57.080
+So I have five files here which is file one to file five just by using touch.
+
+01:57.540 --> 02:04.430
+And now I am going to archive all five of them by using the three compression methods.
+
+02:04.480 --> 02:16.200
+So the first one is going to be car C Z af and I'll tell you what that means in a minute my files on
+
+02:16.260 --> 02:26.590
+TAR but gz file when you are using one through five.
+
+02:27.450 --> 02:27.910
+OK.
+
+02:27.990 --> 02:34.690
+So in the c z f c is that you are creating a tar archive.
+
+02:34.800 --> 02:40.440
+That's what the C is for zes to process archive to Jees it.
+
+02:40.500 --> 02:43.060
+So Zipp that's where the Z comes from.
+
+02:43.360 --> 02:45.080
+And Fs are filed.
+
+02:46.020 --> 02:52.710
+And if you want to look up more information on Taar you can of course Newcomen tar in all the details
+
+02:52.890 --> 02:55.900
+of the syntax and all the options available.
+
+02:56.160 --> 03:01.820
+OK so this is going to tar all of her files into one tarball.
+
+03:02.430 --> 03:03.710
+Let's see just creative.
+
+03:04.130 --> 03:04.670
+Yeah.
+
+03:04.920 --> 03:09.000
+The red one right here is the file.
+
+03:09.210 --> 03:12.860
+No let's use the other compression method which is busy too.
+
+03:13.180 --> 03:27.180
+So no you're going to do TAR c g f my files got tar got B C to a good file
+
+03:30.100 --> 03:33.420
+1 through 5.
+
+03:34.780 --> 03:44.100
+In this case C again is to create a time archive small just to process the archive to be easy to take.
+
+03:44.470 --> 03:49.620
+And see that's created and second was created as well.
+
+03:50.290 --> 03:57.660
+And we're going to use the last compression method which is Taar see capital G.
+
+03:58.570 --> 04:10.960
+If my file got Taar dot X Z while 1 through 5.
+
+04:11.930 --> 04:21.960
+Google then all three bundles are tarballs created here and you can use a command which is LS dash h
+
+04:23.130 --> 04:27.000
+and then grep for TAR.
+
+04:27.000 --> 04:35.300
+Ill give you the exact size off the tar balls so you can compare this to the original size of your file
+
+04:36.050 --> 04:38.780
+to see if it's less or not it should be
+
+04:41.770 --> 04:49.380
+no wonder you look at the contents of one of my tower files so I'll do a tar tee vee.
+
+04:50.540 --> 05:05.320
+My Files tar dog g z and it shows me that inside my tar tar ball I have file 1 2 5 5.
+
+05:05.330 --> 05:07.010
+These are the contents of them.
+
+05:07.710 --> 05:15.590
+Now next step is going to be we get to run the compression again which will be like jeez if gash d my
+
+05:15.590 --> 05:22.260
+files got tar not GZ.
+
+05:22.820 --> 05:29.070
+The second one is going to be B zip to dash D.
+
+05:29.430 --> 05:36.700
+My Files got tar dog be easy to see.
+
+05:36.830 --> 05:37.720
+Already exists.
+
+05:37.800 --> 05:39.130
+You've done it once before.
+
+05:39.410 --> 05:43.460
+And the last one is going to be X Z dash D.
+
+05:43.940 --> 05:45.530
+My Files.
+
+05:45.530 --> 05:48.980
+Gosh doc tar doc x.
+
+05:49.090 --> 05:54.830
+So on the last one there was no Phyliss just file.
+
+05:54.990 --> 06:00.080
+So instead of doing files we'll just do file
+
+06:05.810 --> 06:08.710
+so we got the three guys create it in.
+
+06:08.810 --> 06:17.820
+We actually shipped over tar ball and now we want to extract it to to get the original files back.
+
+06:18.080 --> 06:27.460
+So in order to do that you have to run the tar X V.F..
+
+06:27.560 --> 06:30.060
+Are we going to target the file.
+
+06:30.200 --> 06:39.310
+So the command for that is starting with again x x x access for extraction vse for verbose interface
+
+06:39.380 --> 06:40.320
+for file.
+
+06:40.730 --> 06:44.030
+And I'm going to use one example out of three.
+
+06:44.440 --> 06:45.370
+And there we go.
+
+06:47.260 --> 06:50.610
+All of our five files are extracted again.
+
+06:52.100 --> 06:54.130
+Samples that are in your location this time.
+
+06:54.560 --> 07:00.670
+All of this was our discussion of how you archive a file and compress a file.
+
+07:00.900 --> 07:04.480
+It's a very broad subject and we can go into further detail about that.
+
+07:04.490 --> 07:11.180
+But as far as the exam problem point of view is concerned I think this much in intermissions is should
+
+07:11.180 --> 07:12.180
+be sufficient.
+
+07:12.620 --> 07:20.090
+And you can look at the man pages just to look at some other options that are available in the tar utility's.

@@ -1,0 +1,24 @@
+ls - list-- ls -al list all
+vi - open/create file in vi editor
+rm - remove a file
+cp - copy
+more - Show contents of a file within the terminal
+mv - move
+ls -al - list all eith details -- long listing
+    {
+    directories start with a d(coloured)
+    files start with -
+    }
+rmdir name_of_folder - removes an empty directory
+pwd - present working directory
+
+terminal
+username$ - non root user($)
+username# - root account(#)
+whoami - gives name of the account
+hostname - The system hostname
+passwd - change current user password
+last - show the last user logged in
+uname -a - Gives details on the operating system
+uname --help
+date - shows the date

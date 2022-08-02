@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.510 --> 00:08.470
+That Loewenberg students in this lecture we going to talk about ARC very useful too.
+
+00:08.750 --> 00:15.230
+It's a utility that enables a programmer to write tiny but effective programs in the form of statements
+
+00:15.950 --> 00:24.320
+that define text patterns that are to be searched for in each line of a document and action that has
+
+00:24.320 --> 00:26.990
+to be taken when it matters around within a line.
+
+00:27.890 --> 00:32.470
+It comes with all Linux versions and it's also available for Windows
+
+00:35.230 --> 00:41.450
+and the program is made up of patterns and actions to be performed by the pattern match to spawn
+
+00:44.400 --> 00:52.470
+aka scans the input line sequentially and examines each one to determine whether it contains a pattern
+
+00:52.800 --> 00:59.820
+matching what is specified by the user whether a matching pattern is false or carries out the instructions
+
+00:59.820 --> 01:07.920
+in the program for example or could scan text for critical portion and reformat the tax content in it
+
+01:08.280 --> 01:10.180
+according to the use of documents.
+
+01:10.350 --> 01:11.360
+If.
+
+01:11.940 --> 01:19.830
+According to the users commit if no pattern is specified the program will carry out the command on all
+
+01:19.830 --> 01:21.030
+of the input data.
+
+01:22.720 --> 01:27.740
+Okay let's take an example of log into a Linux machine right.
+
+01:27.750 --> 01:31.460
+No it's in a book to machine this time for a change.
+
+01:31.460 --> 01:33.930
+I've been dealing with mostly syntax machine.
+
+01:34.130 --> 01:40.190
+As you may have noticed that would be a good idea to give you a taste of Ubuntu also this is a Windows
+
+01:40.190 --> 01:47.580
+desktop and I have created a very short text example.
+
+01:47.890 --> 01:50.510
+It's called awk examples.
+
+01:50.570 --> 01:52.860
+And I just wrote a couple of sentences there.
+
+01:52.910 --> 01:55.420
+You know this year has been going well so far.
+
+01:55.420 --> 01:56.840
+Blah blah blah.
+
+01:57.030 --> 02:01.180
+Anyways and this is what we get to play with for our awk example.
+
+02:01.280 --> 02:01.840
+OK.
+
+02:02.340 --> 02:02.850
+So
+
+02:05.550 --> 02:12.790
+what I'm going to try to do is Filcher first second and third fields in this file.
+
+02:12.990 --> 02:13.710
+OK.
+
+02:13.710 --> 02:15.710
+So let's see how that's done.
+
+02:15.810 --> 02:23.320
+You started with a single coat then double back backslashes
+
+02:26.530 --> 02:27.010
+print
+
+02:29.990 --> 02:44.100
+dollar one space dollar to space daughter three in the bracket and the coat and then you give it the
+
+02:44.100 --> 02:47.790
+file name which in my case is off.
+
+02:48.570 --> 02:49.210
+Example
+
+02:52.390 --> 03:00.140
+And as you can see this has printed the do the cat so you can look at it.
+
+03:02.320 --> 03:11.200
+This year has it has printed the first three words off the fly.
+
+03:13.820 --> 03:21.560
+That you've noticed one thing that the field is these fields are not separate It's hard to tell what
+
+03:21.560 --> 03:22.270
+this is say.
+
+03:22.280 --> 03:22.800
+Right.
+
+03:23.030 --> 03:29.270
+So no we going to make a slight adjustment in our off script and that's what we're doing we're actually
+
+03:29.900 --> 03:38.410
+on the command line writing a script and you can put all of these short lines in a Perl program or in
+
+03:38.420 --> 03:41.070
+abash program and actually create a script.
+
+03:41.080 --> 03:44.870
+The script is no magic it's just whatever you put on the command line.
+
+03:45.110 --> 03:50.520
+You go ahead and put on script so that we can run sequentially one command after another.
+
+03:50.750 --> 03:53.770
+OK so this one let's start off with awk.
+
+03:54.200 --> 04:00.300
+Actually we can you just to use the history of when to do a bear or any document is there so why type
+
+04:00.300 --> 04:01.160
+the whole thing.
+
+04:01.610 --> 04:07.610
+And then I'm going to have a comma here and have a comma here and let's see what we get this time.
+
+04:07.610 --> 04:08.120
+OK.
+
+04:10.230 --> 04:13.030
+This year has not much better.
+
+04:13.050 --> 04:14.310
+It's more readable.
+
+04:14.310 --> 04:17.890
+So we created a script we edited it changed it a little bit.
+
+04:17.910 --> 04:19.660
+No more readable.
+
+04:20.160 --> 04:21.810
+OK let's use an example.
+
+04:21.810 --> 04:31.740
+I'm going to clear the screen and we'll do awk single quote backslash backslash print
+
+04:35.160 --> 04:35.950
+in the bracket
+
+04:38.800 --> 04:45.590
+end of code and we're going to use our C host file on this host.
+
+04:45.630 --> 04:48.750
+So this has printed pretty much everything it's like.
+
+04:48.750 --> 04:54.410
+I've done a cat on the ASIO's violins showing everything that's not much useful.
+
+04:54.440 --> 05:01.830
+We've got to use Auct. actually filter out something takes something important out of this file instead
+
+05:01.830 --> 05:03.660
+of just showing everything.
+
+05:03.810 --> 05:06.630
+That doesn't really do much for us.
+
+05:07.300 --> 05:12.650
+OK so what are you going to do is I'm going to use up arrow again.
+
+05:13.100 --> 05:18.670
+And where we have two backslashes we're going to put I.
+
+05:18.910 --> 05:24.590
+Sorry I meant to put my for the input.
+
+05:24.980 --> 05:33.860
+And instead of just having two backslashes I'm going to have local Hulst and that's the string you've
+
+05:33.860 --> 05:35.210
+got to search for.
+
+05:35.520 --> 05:38.110
+And then we'll leave the rest of it as it is.
+
+05:38.100 --> 05:39.370
+And let's see what happens.
+
+05:41.140 --> 05:49.930
+So from this much information we want to just these two lines because both of them are talking about
+
+05:50.890 --> 05:54.220
+localhost and that's what we were searching for.
+
+05:54.280 --> 06:01.870
+That's what we were filtering out at sea hosts file can now do some character filtering.
+
+06:01.890 --> 06:03.980
+OK I'm sorry.
+
+06:05.610 --> 06:09.290
+We're going to do some character matching that in the sequence.
+
+06:09.360 --> 06:09.790
+OK.
+
+06:09.990 --> 06:11.660
+So let's do this.
+
+06:13.110 --> 06:13.490
+Awk
+
+06:19.620 --> 06:21.560
+zero through nine.
+
+06:21.740 --> 06:25.120
+So it's a series of numbers zero through nine.
+
+06:25.760 --> 06:30.670
+And the other backslash then we'll have a printed statement.
+
+06:30.680 --> 06:39.280
+We get it and that with the curly bracket then end of code at c house.
+
+06:39.590 --> 06:46.200
+And what it has printed actually it looked for 0 and the chevre line had zero in it.
+
+06:46.250 --> 06:55.430
+It has printed that 0 1 2 and we were supposed to go all the way tonight but past two there is no number
+
+06:55.430 --> 06:56.120
+here.
+
+06:56.120 --> 06:59.590
+So that's why it printed everything was 0 and everything with two.

@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.950 --> 00:01.960
+Fellow users.
+
+00:02.170 --> 00:08.290
+So this is not something I was planning on doing but since it came up in the last lecture that I did
+
+00:08.290 --> 00:11.640
+not assign the host name or domain name to my server.
+
+00:11.910 --> 00:15.720
+So I'm going to show you declasse do it all.
+
+00:15.760 --> 00:19.630
+It's far advanced right now for you guys because we're just starting off.
+
+00:19.720 --> 00:21.870
+So don't worry about remembering any of this.
+
+00:21.910 --> 00:28.860
+I just want you to sort of remember the process that you go through in order to change the host.
+
+00:29.170 --> 00:39.170
+So currently I've changed it to my server and I'm going to change it to Santos dash unless and s.c.s
+
+00:39.380 --> 00:41.990
+sorry to think about it for a second.
+
+00:42.010 --> 00:43.080
+LS see us.
+
+00:43.290 --> 00:45.420
+So let's do that.
+
+00:51.330 --> 00:55.590
+So first I'm going to become the super user as you are.
+
+00:55.590 --> 01:00.780
+SU is actually for switch user that I you for the password.
+
+01:00.780 --> 01:06.950
+I'm going to put the superuser password and now you see a hash sign or pound sign.
+
+01:07.410 --> 01:10.880
+And that means I am root
+
+01:15.240 --> 01:16.480
+take root on top.
+
+01:16.500 --> 01:22.980
+Who writes his root so not have the power to change stuff.
+
+01:23.340 --> 01:31.440
+So first thing I'm going to do is I'm going to use the editor vi editor and I'm going to go into this
+
+01:31.440 --> 01:46.160
+file see sis can sit slash network and I help change the host name to this my server but I don't want
+
+01:46.160 --> 01:47.200
+this I want to change
+
+01:54.560 --> 01:59.950
+so in order to change anything you have to type it to get into insert mode.
+
+02:00.360 --> 02:08.500
+So l f c s dash sorry Centaurus gosh.
+
+02:11.270 --> 02:12.890
+Dot Teske got code.
+
+02:13.090 --> 02:15.380
+This is my fully qualified domain.
+
+02:15.400 --> 02:17.450
+That's what's called S D N
+
+02:20.340 --> 02:26.980
+and W Q then is what you type in to get out of the vi editor after saving it.
+
+02:27.330 --> 02:33.090
+If you just do a shoe bag that's going to let you quit without hitting anything.
+
+02:33.090 --> 02:37.620
+So if you made any changes that you don't want to say you think you messed up.
+
+02:37.710 --> 02:40.980
+Easy way to get out of it is cubing together.
+
+02:41.700 --> 02:42.960
+OK the next time.
+
+02:42.990 --> 02:48.240
+Let's follow that I'm going to go into his VI and see just fine.
+
+02:50.550 --> 02:51.870
+As you can see I have
+
+02:55.030 --> 02:59.950
+I have the IP address which is not really a working IP address right now I just put it in there just
+
+02:59.950 --> 03:05.050
+to show you this is the format and I want to change it here as well.
+
+03:06.650 --> 03:07.640
+So I'm going to delete it.
+
+03:07.640 --> 03:09.350
+You deleted that this small.
+
+03:09.590 --> 03:15.920
+If I just keep typing X is going to keep deleting the characters and then when I type it try to insert
+
+03:16.610 --> 03:21.670
+and then change it to send thoss out.
+
+03:21.830 --> 03:32.240
+See as Doc test got cut and then space hostname Actually I had two tabs in there in order to have a
+
+03:32.750 --> 03:36.000
+host name that far I want to I can bring you closer.
+
+03:36.050 --> 03:41.720
+Doesn't really matter white space is white space is white space and Lileks could be one space or five
+
+03:41.720 --> 03:42.830
+spaces.
+
+03:42.830 --> 03:51.700
+So that tells the system that this is the host name and get a skate key and that WQ thing and I say
+
+03:51.700 --> 03:52.820
+that not.
+
+03:53.680 --> 04:00.280
+But in order for it to take a fact are two things you can do you get either reboot the machine and then
+
+04:00.280 --> 04:07.150
+the system will recognize during the reboot that there's been a change that the host made or you can
+
+04:07.150 --> 04:13.570
+do it while the systems run so another.
+
+04:14.420 --> 04:18.350
+So the way to do that is eat c it.
+
+04:18.350 --> 04:22.880
+D network restart
+
+04:25.420 --> 04:27.790
+and you've got to know that it's been restarted.
+
+04:29.440 --> 04:35.670
+And so far as you can see it's showing my server as the name of the server but you change it already
+
+04:36.080 --> 04:44.890
+some exit out of it and there's one more step to this and which is hostname.
+
+04:45.900 --> 04:48.400
+And then my host name is Santo's
+
+04:51.000 --> 04:52.120
+Bell s.c.s
+
+04:54.650 --> 04:58.320
+test code.
+
+04:58.470 --> 05:05.380
+If I do a hostname at this point see not showing the new hostname but if you look at my problem this
+
+05:05.400 --> 05:08.520
+still says my server.
+
+05:08.760 --> 05:16.570
+So in order to change that I have to run this command and don't worry about these two men.
+
+05:16.750 --> 05:21.920
+I don't want you to be overwhelmed about this because you're going to go over each of these later on
+
+05:26.650 --> 05:35.040
+it out and log back in after exiting out completely and now you can see that I'm showing the new hostname
+
+05:35.590 --> 05:41.610
+and if I type the hostname command at this point this is the hostname with the domain name as well.
+
+05:41.610 --> 05:42.590
+Test dot com.
+
+05:44.140 --> 05:44.570
+OK.
+
+05:44.820 --> 05:51.450
+So sorry this was a segue kind of not intended initially but I just thought it would be a good idea
+
+05:51.540 --> 05:57.890
+for us to do it because I didn't do it initially and once we actually get to this topic then it would
+
+05:57.880 --> 05:58.760
+make more sense to.

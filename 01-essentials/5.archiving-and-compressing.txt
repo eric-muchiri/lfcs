@@ -1,0 +1,41 @@
+Archiving and compressing
+
+-grouping a set of files into one
+-Utility most commonly used is tar-tape archiver
+
+tar has 3 methods of compression
+1. gzip
+tar czf myfiles.tar.gz file[1-5]
+    c - we are creating a tar archive
+    z - process arhive to gzip (zip)
+    f - file
+    
+2. bz2
+tar cjf myfiles.tar.gz file[1-5]
+    c - we are creating a tar archive
+    j - process arhive to bz2 (zip)
+    f - file
+    
+3. xz
+tar cJf myfiles.tar.gz file[1-5]
+    c - we are creating a tar archive
+    J - process arhive to xz (zip)
+    f - file
+    
+we can compare the files by listing them using
+`ls -lh | grep tar`
+
+to look at the contents of our tar file
+`tar tvf myfile.tar.gz`
+
+ `gzip -d myfiles.tar.gz` - compress from .gz to .tar
+ `bzip2 -d myfiles.tar.bz2`
+ `xz -d myfie.tar.xz`
+ 
+ Decompress
+ `tar xvf myfile.tar`
+ 
+ x-extraction
+ v- verbose
+ f- file
+ 

@@ -1,0 +1,15 @@
+remote access
+
+ssh- secure shell
+telnet
+rsh
+
+touch- create fie
+rm - remove file
+cp - copy
+mv - move
+mkdir - make directory
+rmdir - remove directory
+
+
+rm -r - remove recursively - instead of removing files in the dir one by one

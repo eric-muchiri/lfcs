@@ -1,0 +1,14 @@
+
+Grep and Regex
+
+Regex - regular expressions
+-Special text strings used to search for and match patterns in text 
+
+Grep
+-General Regular expressions parser
+-serches for string matches
+
+to search usernames that begin with e in /etc/usr file
+
+`grep '^e' /etc/passwd `
+`grep '^j' /etc/passwd `

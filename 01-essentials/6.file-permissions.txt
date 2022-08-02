@@ -1,0 +1,49 @@
+Linux file permissions
+
+
+First 10 characters in ls -al output
+
+the first character shows the type of file
+`-` - a  regular file
+`d` - a directory
+`-l` - symbolic link
+`c` - character device
+`b` - block
+
+The next 9 characters represent the file mode which includes read, write and execute file permissions of:
+
+    the file's owner
+    the file's group owner
+    the rest of the users
+
+    r     w    x
+    2^2  2^1  2^0
+    
+    rwx=4+2+1=7
+    
+    r--=4+0+0=4
+    
+For instance a file can have permisions like 744
+
+    7-Owner has read, write and execute permissions
+    4-the group owner has read only rights
+    4-the rest of the users have only read rigts
+
+`chmod`- command used to change the permissions of a dile
+e.g chmod 744 file2
+    ls -al file2
+    
+besides using numbers you can use characters
+e.g chmod a+x file5
+
+    `a`- all the users
+    `+` - add permission
+    `x`- execute rights
+    
+    chmod a-x file 5
+    
+    `u` - user/owner
+    `g` - group
+    
+
+

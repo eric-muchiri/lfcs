@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.970 --> 00:07.740
+Hello and welcome again in this lecture we're going to talk about how to connect remotely.
+
+00:07.780 --> 00:12.500
+Suppose if you're not sitting in front of the system and you're on your Windows machine or any other
+
+00:12.520 --> 00:17.910
+Linux machine then how can you connect to the server that you want to connect to.
+
+00:18.250 --> 00:23.950
+So what you do is you put an IP address or hostname as long as it's in the DNS.
+
+00:24.040 --> 00:29.180
+You can use the host name as well but IP address.
+
+00:29.380 --> 00:36.160
+In my case I've already saved it in this tool called party and Safari tool you can download on your
+
+00:36.160 --> 00:37.310
+Windows machine.
+
+00:37.570 --> 00:41.950
+If it's not already downloaded then you can use this.
+
+00:42.010 --> 00:48.280
+I call this machine Roundhead as soon as I click load it brings up the IP address that I only saved
+
+00:48.320 --> 00:52.000
+it and I call the section right here.
+
+00:52.500 --> 01:00.110
+And when I open it it gives me a prompt you know I'm going to type in my user in
+
+01:03.140 --> 01:04.660
+passport a minute.
+
+01:05.240 --> 01:13.530
+So this is how you could connect remotely to another system that you're not in front of not suppose
+
+01:13.620 --> 01:17.000
+you are already on a Linux machine.
+
+01:17.140 --> 01:22.050
+There is another machine within the network that I can connect to.
+
+01:22.050 --> 01:26.230
+The way I do that is S-sh which is the secure shell.
+
+01:26.310 --> 01:34.350
+There are two ways you can connect via telnet and by S-sh and there's a little one called Remote sh
+
+01:34.430 --> 01:35.510
+r r s h.
+
+01:35.730 --> 01:41.250
+What S-sh is the most secure and most cables are that you going to be using was probably told it is
+
+01:41.250 --> 01:47.360
+usually disable because it says the password in clear text.
+
+01:47.400 --> 01:50.910
+So that's why telnet just have a bad reputation.
+
+01:51.030 --> 01:53.280
+I had used most of the time.
+
+01:53.280 --> 01:55.140
+So I always use S-sh.
+
+01:55.140 --> 02:00.030
+So I'm going to another machine which is in the same network.
+
+02:00.360 --> 02:02.090
+I'm going to use its IP address.
+
+02:02.190 --> 02:07.940
+So I I to say S-sh root cause I don't know the I don't have it.
+
+02:08.340 --> 02:09.880
+A regular user on that machine.
+
+02:10.030 --> 02:10.370
+I do.
+
+02:10.370 --> 02:11.740
+I know the root password.
+
+02:12.060 --> 02:18.220
+So when I say root at that IP address or I will if I wanted to I can put a hostname as well.
+
+02:18.450 --> 02:23.270
+As long as the DNS can look up the IP address I can use that as well.
+
+02:23.340 --> 02:24.480
+So that's all you do.
+
+02:24.720 --> 02:32.240
+I see a sh username at IP address or costly and Ill ask you for password.
+
+02:32.370 --> 02:39.500
+I will copy and paste it because I've got a complicated password in there you know.
+
+02:39.620 --> 02:42.740
+So you but is subject to a sheet and a blog right.
+
+02:43.640 --> 02:51.120
+So this is how you log in by using putty or by using S-sh from the lead sheet.
+
+02:51.190 --> 02:51.700
+OK.
+
+02:51.710 --> 03:00.860
+One other topic that I want to discuss in this lecture is how to work with files how to create files
+
+03:00.860 --> 03:04.460
+delete files copy files move files and directories.
+
+03:04.730 --> 03:05.190
+OK.
+
+03:05.430 --> 03:13.130
+So one way I've already showed you that you can just use touch command to create a file and then if
+
+03:13.130 --> 03:17.480
+I want to write no like my file one file to file three there are empty files.
+
+03:17.720 --> 03:20.940
+But suppose I want them empty want to put something in there.
+
+03:21.380 --> 03:24.200
+So what I use I can use some kind of editor.
+
+03:24.360 --> 03:32.070
+There's a vi at Richard there's a vi editor and there are several other so I'm using vi editor right.
+
+03:32.320 --> 03:36.980
+And now inside the file that this file is not going to be empty because I'm going to write something
+
+03:36.980 --> 03:37.410
+in it.
+
+03:37.610 --> 03:46.060
+So I type it I insert mode and then I type my name is Joe.
+
+03:46.190 --> 03:48.480
+Now this file is not empty anymore.
+
+03:49.070 --> 03:50.690
+I just wrote something in it.
+
+03:50.990 --> 03:53.780
+So this is how you create a file.
+
+03:53.800 --> 03:57.680
+The guy is supposed to follow does not exist at all.
+
+03:57.680 --> 04:02.390
+Like a test to default didn't exist.
+
+04:02.390 --> 04:09.950
+I just used a vi editor and I created this file and I just wrote something in it and I'm going to do
+
+04:10.650 --> 04:11.940
+this semi color.
+
+04:11.960 --> 04:15.070
+Let me get to the bottom of this so you can see the whole thing.
+
+04:19.560 --> 04:23.220
+So WQ bang is going to save and exit.
+
+04:23.320 --> 04:27.280
+If you just do Q then it's going to exit without safety.
+
+04:27.580 --> 04:33.430
+If you do w bank is going to save and let you stay in the.
+
+04:33.690 --> 04:38.480
+So I suppose if I don't want one of these files.
+
+04:38.730 --> 04:45.430
+So all I do is are it has to remove remove that file is gone.
+
+04:45.590 --> 04:48.770
+If you do it at less There you will see it.
+
+04:48.840 --> 04:50.040
+Test 2 is gone.
+
+04:50.430 --> 04:50.960
+OK.
+
+04:51.090 --> 04:54.410
+So you have created a file you have deleter file.
+
+04:54.420 --> 05:01.160
+Now I want a copy watermark created in file 1 2 5 4.
+
+05:01.550 --> 05:13.020
+OK so copy file 1 to file for the file for and you with their files one was there but let's see what's
+
+05:13.110 --> 05:13.620
+inside.
+
+05:13.620 --> 05:14.910
+File for now.
+
+05:16.380 --> 05:22.870
+It copy the contents from file one into created files for first and then copy my content.
+
+05:23.220 --> 05:24.340
+So they are identical.
+
+05:24.380 --> 05:32.310
+So it's always a good idea to make a copy before you make any edits to any of the lyrics for assistance.
+
+05:32.310 --> 05:37.860
+Always a good idea so that you have a backup copy and if you mess up then you can always go back.
+
+05:38.340 --> 05:42.470
+Another way you can make a copy but that's that case you're not going to have a back.
+
+05:42.930 --> 05:56.340
+Suppose if I were to do move and the file 1 5 5 5 5 doesn't exist right here what happens I do or less
+
+05:57.060 --> 06:03.090
+like file when it's completely gone and file files there so that I don't have a backup but I have.
+
+06:03.270 --> 06:11.770
+This is basically used to change to finally a file because for whatever reason I still like file what
+
+06:12.120 --> 06:14.030
+I wanted it to be 5 5.
+
+06:14.340 --> 06:19.880
+So I just moved all the content and just got rid of one in one step.
+
+06:21.650 --> 06:24.230
+So poppys is still your bet or is your best friend.
+
+06:24.270 --> 06:29.830
+You make a copy first and then do whatever you want with the file because then you have a copy of
+
+06:33.270 --> 06:38.000
+directories you do and Khidir make directories.
+
+06:38.180 --> 06:44.040
+That's what the shortest far less call at the horizon.
+
+06:44.070 --> 06:50.490
+I don't know where this word popped into my head but just less creative director called Horizon.
+
+06:50.830 --> 06:56.880
+And if you do it LS test it out see the colors different varieties of that tells you right there that
+
+06:56.970 --> 06:58.350
+it is a directory.
+
+06:58.460 --> 07:04.900
+If I do it less and less dash I'll look at this file.
+
+07:04.990 --> 07:07.720
+This directory where it starts with the D
+
+07:13.610 --> 07:18.870
+the right now this directory's empty it has no files underneath it.
+
+07:18.870 --> 07:19.920
+Right.
+
+07:20.010 --> 07:22.420
+So I can do R and D.
+
+07:24.480 --> 07:32.960
+Know the horizon is removed if you move binary tree is gone.
+
+07:34.050 --> 07:43.950
+However if I have files underneath it suppose a file created to get Victor horizon and then CD into
+
+07:44.190 --> 07:52.890
+horizon now gone into the directory if you do a P.W. Dener present working directory you see whole Larry
+
+07:53.130 --> 08:00.810
+has a directory called Horizon and inside that directory and now whatever file I create will be owned
+
+08:00.810 --> 08:02.150
+by this directory.
+
+08:02.220 --> 08:04.820
+So touch file
+
+08:07.530 --> 08:13.070
+while 6.
+
+08:13.220 --> 08:16.870
+So now this directory has a file underneath it.
+
+08:17.180 --> 08:25.510
+I went one step up and now I'm going to do our FBI our horizon.
+
+08:25.720 --> 08:27.430
+It's not letting me delete it.
+
+08:27.510 --> 08:29.600
+Just saying it's not empty anymore.
+
+08:30.220 --> 08:35.100
+So what you have to do is you have to see the horizon first
+
+08:39.660 --> 08:46.280
+do less Ahram file six to get rid of that file.
+
+08:46.360 --> 08:47.460
+Now other directories.
+
+08:47.600 --> 08:49.130
+Let's see if you could delete it.
+
+08:49.130 --> 08:49.910
+No.
+
+08:50.050 --> 08:53.110
+R and D are right.
+
+08:55.740 --> 09:01.850
+So unless the directory is empty it's not going to let you delete it.
+
+09:01.960 --> 09:03.910
+There's a record to delete.
+
+09:03.960 --> 09:07.740
+So do our man on our DVR.
+
+09:07.980 --> 09:12.640
+And there's a way you can delete it with everything in it.
+
+09:12.780 --> 09:16.320
+All the files in it and recursively because you have a lot of files in it.
+
+09:16.330 --> 09:20.540
+You don't want to go one by one and delete the files then delete the directory.
+
+09:20.580 --> 09:22.530
+So there is a way to do it recursively.
+
+09:22.650 --> 09:29.910
+And I'll let you research it by using men and pictures and I probably put this question in the quizzes
+
+09:29.910 --> 09:36.080
+are are one of the assignments also so that way you'll get a refresher that will.
